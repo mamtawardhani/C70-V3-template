@@ -76,36 +76,21 @@ export default class RideScreen extends Component {
           </View>
           <View style={[styles.textinputContainer, { marginTop: 25 }]}>
 
-            {/* <TextInput
-              style={styles.textinput}
-              placeholder={Bicycle Id}
-              placeholderTextColor={"#FFFFFF"}
-              value={bikeId}
-            /> */}
-
-            {/* <TextInput
-              style={{styles.textinput}}
-              placeholder={"Bicycle Id"}
-              placeholderTextColor={"#FFFFFF"}
-              value={bikeId}
-            /> */}
-
-            {/* <TextInput
+            <TextInput
               style={styles.textinput}
               placeholder={"Bicycle Id"}
               placeholderTextColor={"#FFFFFF"}
               value={bikeId}
-            /> */}
+            />
 
-            {/* <TextInput
-              style={{styles.textinput}}
-              placeholder={Bicycle Id}
-              placeholderTextColor={#FFFFFF}
-              value={bikeId}
-            /> */}
             <TouchableOpacity
               style={styles.scanbutton}
-              onPress={() => this.getCameraPermissions()}
+
+             // onPress={this.getCameraPermissions()}
+             // onPress={() => this.getCameraPermissions()}
+             // onPress={() => this.getCameraPermissions}
+             // onPress=() => this.getCameraPermissions()
+
             >
               <Text style={styles.scanbuttonText}>Scan</Text>
             </TouchableOpacity>
